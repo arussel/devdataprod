@@ -1,6 +1,6 @@
 presentation
 ========================================================
-author: 
+author: Alexandre Russel
 date: 
 
 First Slide
@@ -35,3 +35,8 @@ Slide With Plot
 ========================================================
 
 ![plot of chunk unnamed-chunk-2](presentation-figure/unnamed-chunk-2-1.png) 
+
+Last Slide
+=========================================================
+
+title slide + 4 slides == 5 slides

@@ -1,6 +1,6 @@
 presentation
 ========================================================
-author: 
+author: Alexandre Russel
 date: 
 
 First Slide
@@ -26,3 +26,8 @@ Slide With Plot
 ```{r, echo=FALSE}
 plot(cars)
 ```
+
+Last Slide
+=========================================================
+
+title slide + 4 slides == 5 slides
