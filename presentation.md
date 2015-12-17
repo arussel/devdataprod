@@ -1,42 +1,34 @@
-presentation
+Analysing Award distribution among players
 ========================================================
 author: Alexandre Russel
-date: 
+date: December 2015
 
-First Slide
+Context
 ========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
+The data we are analysing comes from an iOs app.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+To keep player motivated, player can win rewards when they play well.
 
-Slide With Code
+But if we keep to many rewards too fast,
+then the player looses motivation.
+
+What is the repartition of Rewards ?
 ========================================================
 
+The following graph shows how many player have how many 
+rewards: 
 
-```r
-summary(cars)
-```
+![plot of chunk unnamed-chunk-1](presentation-figure/unnamed-chunk-1-1.png) 
 
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
+What is the repartition of Rewards for power user ?
 ========================================================
 
 ![plot of chunk unnamed-chunk-2](presentation-figure/unnamed-chunk-2-1.png) 
 
-Last Slide
+Conclusion
 =========================================================
-
-title slide + 4 slides == 5 slides
+We can see from the previous slide that the vast majority
+of power user have all rewards. This might make the game
+not as interesting for them. We might want to increase the number
+of rewards or making it more difficult to gain them.
