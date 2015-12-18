@@ -16,18 +16,20 @@ then the player looses motivation.
 What is the repartition of Rewards ?
 ========================================================
 
-The following graph shows how many player have how many 
-rewards: 
-
 ![plot of chunk unnamed-chunk-1](presentation-figure/unnamed-chunk-1-1.png) 
 
-What is the repartition of Rewards for power user ?
-========================================================
-
-The following graph shows how many player who played at least
-one hour:
+***
 
 ![plot of chunk unnamed-chunk-2](presentation-figure/unnamed-chunk-2-1.png) 
+
+What is the repartition of Rewards depending on the type of Reward?
+========================================================
+
+![plot of chunk unnamed-chunk-3](presentation-figure/unnamed-chunk-3-1.png) 
+
+***
+
+![plot of chunk unnamed-chunk-4](presentation-figure/unnamed-chunk-4-1.png) 
 
 Conclusion
 =========================================================

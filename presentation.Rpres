@@ -16,23 +16,28 @@ then the player looses motivation.
 What is the repartition of Rewards ?
 ========================================================
 
-The following graph shows how many player have how many 
-rewards: 
-
 ```{r, echo=FALSE}
 source("global.R")
-numRewHist(0)
+numRewHist(0, "Number of Rewards for all users")
 ```
 
-What is the repartition of Rewards for power user ?
+***
+
+```{r, echo = FALSE}
+numRewHist(60, "Number of Rewards for power users (at least 1 hour played)")
+```
+
+What is the repartition of Rewards depending on the type of Reward?
 ========================================================
 
-The following graph shows how many player who played at least
-one hour:
+```{r, echo=FALSE}
+rewardPlot("finBall", "Number of rewards for type Fin Ball")
+```
+
+***
 
 ```{r, echo=FALSE}
-source("global.R")
-numRewHist(60)
+rewardPlot("lemonBall", "Number of rewards for type Lemon Ball")
 ```
 
 Conclusion

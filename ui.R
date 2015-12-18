@@ -7,5 +7,10 @@ shinyUI(fluidPage(
   p("You can move the slider to select only players who have played that many minutes The histogram
     will be updated to show only players who played more than the selected number of minutes"),
   plotOutput('rewHist'),
-  sliderInput('threshold', 'Filter by number of minutes played',value = 0, min = 0, max = maxTimePlayed)
+  sliderInput('threshold', 'Filter by number of minutes played',value = 0, min = 0, max = maxTimePlayed),
+  plotOutput('typePlot'),
+  selectInput('type', "Reward Type:", c("Color Ball" = "colorBall", 
+                                        "Fin Ball" = "finBall", 
+                                        "Edit Ball" = "editBall",
+                                        "Lemon Ball" = "lemonBall"))
 ))
