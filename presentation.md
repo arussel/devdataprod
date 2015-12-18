@@ -10,7 +10,7 @@ The data we are analysing comes from an iOs app.
 
 To keep player motivated, player can win rewards when they play well.
 
-But if we keep to many rewards too fast,
+But if we give to many rewards too fast,
 then the player looses motivation.
 
 What is the repartition of Rewards ?
@@ -23,6 +23,9 @@ rewards:
 
 What is the repartition of Rewards for power user ?
 ========================================================
+
+The following graph shows how many player who played at least
+one hour:
 
 ![plot of chunk unnamed-chunk-2](presentation-figure/unnamed-chunk-2-1.png) 
 
